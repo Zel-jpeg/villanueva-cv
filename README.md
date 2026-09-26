@@ -48,11 +48,3 @@ CV/
 7. **Contact:** villanueva.azel@dnsc.edu.ph, Davao City, Philippines, and https://github.com/Zel-jpeg.
 
 Personal details were taken from the provided portfolio and updated with the requested full name and current year level. Employment dates, certification dates, proficiency ratings, and quantified results were not supplied and have not been invented.
-
-## How to open
-
-1. Keep the folder structure shown above.
-2. Double-click `index.html`, or right-click and choose **Open with → Chrome, Edge, or Firefox**.
-3. No installation, build, server, or internet connection is required to display the CV and profile photo. Email and external GitHub links need the relevant application or network connection.
-
-Use the theme button at the upper-right of the profile section to switch between light and dark modes. The preference is saved when browser storage is available. Use **Print CV** to print or select **Save as PDF** in your browser's print dialog. Offscreen sections gently fade in; reduced-motion settings disable animations. Navigation highlights your current reading section.
