@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal CV of Azel M. Villanueva, a fourth-year BSIT student at Davao del Norte State College with experience in full-stack development and UI/UX design.">
+  <meta name="color-scheme" content="light dark">
+  <title>Azel M. Villanueva - Personal CV</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a1a1a'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='26' font-weight='bold' fill='white'%3EAV%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <!-- A classic deferred script also works when opening this file directly. -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to CV content</a>
+<main class="cv-shell" id="main-content">
+    <!-- The CV header uses the only image copied from the portfolio. -->
+    <section class="profile-header reveal" id="profile" aria-labelledby="name">
+      <img class="profile-photo" src="assets/profile-zel.webp" alt="Portrait of Azel M. Villanueva" width="144" height="144">
+      <div class="toolbar">
+        <button class="button button-quiet" id="print-cv" type="button" hidden><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8V3h10v5M7 17H4V8h16v9h-3M7 14h10v7H7zM17 11h.01"/></svg><span>Print CV</span></button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" hidden>
+          <svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+          <svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.5A9 9 0 0 1 8.5 4 9 9 0 1 0 20 15.5Z"/></svg>
+        </button>
+      </div>
+      <div class="profile-heading">
+        <p class="eyebrow">CURRICULUM VITAE</p>
+        <h1 id="name">Azel M. Villanueva<span class="name-dot">.</span></h1>
+        <p class="professional-title">Aspiring Software Engineer <span aria-hidden="true">/</span> Web Developer <span aria-hidden="true">/</span> BSIT Student</p>
+        <p class="location"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Davao City, Philippines</p>
+        <div class="profile-actions">
+          <a class="button button-primary" href="mailto:villanueva.azel@dnsc.edu.ph"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>Email me</a>
+          <a class="button button-outline" href="https://github.com/Zel-jpeg" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <span class="student-tag">4th Year · BSIT 4G</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- A desktop sidebar becomes a compact section menu on small screens. -->
+    <div class="resume-layout">
+      <aside class="sidebar">
+        <nav class="section-nav" aria-label="CV sections">
+          <p class="eyebrow">ON THIS CV</p>
+          <a href="#summary" class="active"><span>01</span> Profile</a>
+          <a href="#education"><span>02</span> Education</a>
+          <a href="#skills"><span>03</span> Skills</a>
+          <a href="#experience"><span>04</span> Experience</a>
+          <a href="#certifications"><span>05</span> Certifications</a>
+          <a href="#contact"><span>06</span> Contact</a>
+        </nav>
+        <div class="sidebar-note"><span class="note-mark" aria-hidden="true">&lt;/&gt;</span><p>Software development,<br>thoughtful interfaces,<br>continuous learning.</p><span class="small-label">CODING SINCE 2022</span></div>
+      </aside>
+
+      <div class="resume-content">
+        <section class="cv-section reveal" id="summary" aria-labelledby="summary-title">
+          <div class="section-heading"><h2 id="summary-title">Profile</h2></div>
+          <p>A fourth-year Bachelor of Science in Information Technology student at Davao del Norte State College with academic and project-based experience in web systems, full-stack applications, and UI/UX prototyping.</p>
+          <p>Interested in software development, web development, UI/UX, and emerging technologies. Since beginning my coding journey in 2022, I have worked on car rental platforms, budgeting applications, and point-of-sale systems, bringing together intuitive interfaces and practical backend logic.</p>
+        </section>
+
+        <section class="cv-section reveal" id="education" aria-labelledby="education-title">
+          <div class="section-heading"><h2 id="education-title">Education</h2></div>
+          <div class="timeline">
+            <article class="timeline-entry"><div class="entry-top"><h3>Davao del Norte State College</h3><span class="date-label">4th Year / Present</span></div><p class="entry-subtitle">Bachelor of Science in Information Technology</p><p class="entry-detail">Section: BSIT 4G</p></article>
+            <article class="timeline-entry"><div class="entry-top"><h3>A.L. Navarro National High School</h3><span class="date-label">Completed</span></div><p class="entry-subtitle">High School Education</p></article>
+          </div>
+        </section>
+
+        <section class="cv-section reveal" id="skills" aria-labelledby="skills-title">
+          <div class="section-heading"><h2 id="skills-title">Technical skills</h2></div>
+          <!-- Skills come from portfolioData.js; databases are grouped separately. -->
+          <div class="skill-group"><h3>Frontend</h3><ul class="skill-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Bootstrap</li><li>Tailwind CSS</li></ul></div>
+          <div class="skill-group"><h3>Backend</h3><ul class="skill-tags"><li>Node.js</li><li>Python</li><li>Java</li><li>PHP</li><li>Django</li><li>Django REST Framework</li><li>Laravel</li></ul></div>
+          <div class="skill-group"><h3>Database</h3><ul class="skill-tags"><li>PostgreSQL</li><li>MySQL</li></ul></div>
+          <div class="skill-group"><h3>Tools</h3><ul class="skill-tags"><li>Git</li><li>GitHub</li><li>VS Code</li><li>Figma</li><li>Prettier</li></ul></div>
+          <div class="skill-group"><h3>Security / Auth</h3><ul class="skill-tags"><li>OAuth2</li><li>JWT</li></ul></div>
+        </section>
+
+        <section class="cv-section reveal" id="experience" aria-labelledby="experience-title">
+          <div class="section-heading"><h2 id="experience-title">Development experience</h2></div>
+          <p class="section-intro">Academic and project-based experience</p>
+          <!-- These describe work recorded in the portfolio, without inventing jobs,
+               employment dates, team sizes, or measured results. -->
+          <article class="experience-entry"><div class="entry-top"><h3>Web systems &amp; full-stack development</h3><span class="type-label">Project-based</span></div><ul class="experience-points"><li>Developed web-based applications for car rentals, budgeting, student task management, and point-of-sale workflows.</li><li>Worked on Sakyan, a centralized car rental platform, alongside Financify, DoneeIt, Golden Car Rental, and Verde POS.</li><li>Combined interface design with backend logic to address practical user needs.</li></ul></article>
+          <article class="experience-entry"><div class="entry-top"><h3>Capstone development</h3><span class="type-label">Academic</span></div><ul class="experience-points"><li>Worked on SkillBridge, a capstone OJT recommendation system.</li><li>Applied software development concepts to a school project focused on internship recommendations.</li></ul></article>
+          <article class="experience-entry"><div class="entry-top"><h3>UI/UX design &amp; prototyping</h3><span class="type-label">Academic / Project-based</span></div><ul class="experience-points"><li>Created a Figma UI/UX prototype for the Sakyan platform.</li><li>Designed a PhilHealth website redesign prototype for an HCI assignment, focusing on clear and intuitive interfaces.</li></ul></article>
+        </section>
+
+        <section class="cv-section reveal" id="certifications" aria-labelledby="certifications-title">
+          <div class="section-heading"><h2 id="certifications-title">Certifications</h2></div>
+          <article class="certificate"><span class="certificate-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="m8 12-1 9 5-3 5 3-1-9"/></svg></span><div><h3>CCNA: Switching, Routing, and Wireless Essentials</h3><p>Cisco Networking Academy</p></div></article>
+          <article class="certificate"><span class="certificate-icon" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="m8 12-1 9 5-3 5 3-1-9"/></svg></span><div><h3>CCNA: Introduction to Networks</h3><p>Cisco Networking Academy</p></div></article>
+        </section>
+
+        <section class="cv-section contact-section reveal" id="contact" aria-labelledby="contact-title">
+          <div class="section-heading"><h2 id="contact-title">Contact information</h2></div>
+          <dl class="contact-list">
+            <div><dt>Email</dt><dd><a href="mailto:villanueva.azel@dnsc.edu.ph">villanueva.azel@dnsc.edu.ph <span aria-hidden="true">↗</span></a></dd></div>
+            <div><dt>Location</dt><dd>Davao City, Philippines</dd></div>
+            <div><dt>GitHub</dt><dd><a href="https://github.com/Zel-jpeg" target="_blank" rel="noopener noreferrer">github.com/Zel-jpeg <span aria-hidden="true">↗</span></a></dd></div>
+          </dl>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer"><span>© 2026 Azel M. Villanueva</span><span>Personal CV <span aria-hidden="true">/</span> IT 415</span></footer>
+</body>
+</html>
