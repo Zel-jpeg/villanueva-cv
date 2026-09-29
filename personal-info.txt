@@ -1,3 +1,8 @@
 Name: Azel M. Villanueva
 Role: BSIT Student
+Profile: I am focused on web development, UI design, software engineering, emerging technologies, and full-stack development.
+<<<<<<< HEAD
 Profile: I am interested in software engineering, emerging technologies, and full-stack development.
+=======
+Profile: I am focused on web development, UI design, and building useful applications.
+>>>>>>> student-a
